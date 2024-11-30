@@ -1,0 +1,62 @@
+/* style2.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 50px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 27px;
+    border: 1.5px solid #ccc;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-field {
+    margin-bottom: 30px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #22972a;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+  }
+  
+  input.invalid {
+    border-color: red;
+  }
+  
+  input.valid {
+    border-color: green;
+  }
